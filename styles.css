@@ -1,0 +1,146 @@
+body {
+  /* background-image: url("./Assets/Nairobi\ Edited\ \(Image\ Trace\ 2\)-01.jpg");
+  background-size: 1300px;
+  background-repeat: no-repeat; */
+  /* background-position: 0px 65px;
+  background-color: #cd0303; */
+  background-color: #fffefd;
+}
+
+#mainnav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  /* background-color: #CDEDF6; */
+  align-items: center;
+}
+
+.navmenu {
+  margin: 0px 0px;
+  align-items: center;
+  padding: 4px 10px;
+}
+
+.navitems {
+  text-decoration: none;
+  color: #05299e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17.5px;
+  margin: 10px 30px;
+}
+
+#mainbutton {
+  background-color: #05299e;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  font-size: 16px;
+  border: none;
+  border-radius: 7.4px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  filter: drop-shadow(0.1px 0.1px 0.5px #000000);
+}
+
+#maincontent {
+  width: 600px;
+  display: block;
+  margin: 85px auto 50px auto;
+}
+
+.line {
+  width: 500px;
+  height: 2px;
+  border-radius: 100%;
+  border-color: none;
+  background-color: #bb0000;
+}
+
+#tagline {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  font-style: italic;
+  width: 600px;
+  color: #05299e;
+}
+#discountbtn {
+  background-color: #bb0000;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  font-size: 16px;
+  border: none;
+  border-radius: 70px;
+  padding: 12.5px 30px;
+  margin: 20px auto;
+  filter: drop-shadow(0.1px 0.1px 0.5px #000000);
+  font-weight: bold;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 0px;
+}
+.sublineleft {
+  height: 5px;
+  background-color: #05299e;
+  border: none;
+  width: 100px;
+  border-radius: 200% 0px 0px 200%;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.sublineright {
+  height: 5px;
+  background-color: #05299e;
+  border: none;
+  width: 100px;
+  border-radius: 0px 200% 200% 0px;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #05299e;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 75px 0px;
+  text-align: center;
+  width: 375px;
+  margin-top: 0px;
+}
+.subparagraphs {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0px 250px;
+}
+.btn {
+  background-color: #bb0000;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  font-size: 16px;
+  border: none;
+  border-radius: 70px;
+  padding: 12.5px 30px;
+  margin: 50px auto 20px;
+  filter: drop-shadow(0.1px 0.1px 0.5px #000000);
+}
