@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "What are the two official languages of Kenya?",
+    question: "Which are the two official languages of Kenya?",
     answers: [
       { text: "Swahili and Kikuyu", correct: false },
       { text: "Luo and Kamba", correct: false },
@@ -18,12 +18,12 @@ const questions = [
     ],
   },
   {
-    question: "What is the name of the full length white robe popular amongst the Muslim community in Kenya?",
+    question: "Lake Nam Lolwe, also known as Lake Victoria, is a popular fishing spot for the Luo community. What is the meaning of 'Lake Nam Lolwe'?",
     answers: [
-      { text: "Khanzu", correct: true },
-      { text: "Kikoi", correct: false },
-      { text: "BuiBui", correct: false },
-      { text: "Kanga", correct: false },
+      { text: "Endless Lake", correct: true },
+      { text: "Rich Lake", correct: false },
+      { text: "Diverse Lake", correct: false },
+      { text: "Popular Lake", correct: false },
     ],
   },
   {
@@ -63,12 +63,12 @@ const questions = [
     ],
   },
   {
-    question: "In what tumultuous year did the Mau Mau Uprising begin that ultimately led to the decolonization of Kenya and then to independence?",
+    question: "Both sexes of the Maasai community wear earrings. True or False?",
     answers: [
-      { text: "1945", correct: false },
-      { text: "1930", correct: false },
-      { text: "1952", correct: false },
-      { text: "1960", correct: true },
+      { text: "False", correct: false },
+      { text: "True", correct: true },
+      // { text: "1952", correct: false },
+      // { text: "1960", correct: false },
     ],
   },
   {
@@ -81,12 +81,12 @@ const questions = [
     ],
   },
   {
-    question: "Which Kenyan president won the controversial and disputed election of 2007?",
+    question: "Which of the following Kalenjin sub-tribes has the highest population?",
     answers: [
-      { text: "Raila Odinga", correct: false },
-      { text: "Daniel Arap Moi", correct: false },
-      { text: "Mwai Kibaki", correct: true },
-      { text: "Uhuru Kenyatta", correct: false },
+      { text: "Pokot", correct: false },
+      { text: "Nandi", correct: false },
+      { text: "Kipsigis", correct: true },
+      { text: "Tugen", correct: false },
     ],
   },
 ];

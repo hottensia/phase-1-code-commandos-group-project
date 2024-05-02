@@ -18,16 +18,16 @@ const questions = [
     ],
   },
   {
-    question: "What is 'arbantone' of the Kenyan music genre?",
+    question: "Which of these are Kenyan music genres?",
     answers: [
-      { text: "A blend of Gengetone sounds with modern urban influences such as Jamaican dancehall", correct: true },
+      { text: "Arbantone", correct: false },
       { text: "Gengetone", correct: false },
-      { text: "Gospel music", correct: false },
-      { text: "Secular music", correct: false },
+      { text: "Kapuka", correct: false },
+      { text: "All the above", correct: true },
     ],
   },
   {
-    question: "Who among the following is not a founder of Calif records?",
+    question: "Who amongst the following was not an original member of the Calif records label?",
     answers: [
       { text: "Nonini", correct: false },
       { text: "Juacali", correct: false },
@@ -36,7 +36,7 @@ const questions = [
     ],
   },
   {
-    question: "Who among the following is not an owner of the popular Ogopa deejays?",
+    question: "Who amongst the following was not an owner of the popular Ogopa deejays label?",
     answers: [
       { text: "Francis Bikedo", correct: false },
       { text: "Lucas Bikedo", correct: false },
@@ -72,7 +72,7 @@ const questions = [
     ],
   },
   {
-    question: "Who among the following was not in Calif records?",
+    question: "Who amongst the following was not in Calif records?",
     answers: [
       { text: "Nonini", correct: false },
       { text: "Jua Cali", correct: false },
@@ -81,12 +81,12 @@ const questions = [
     ],
   },
   {
-    question: "Which Kenyan president won the controversial and disputed election of 2007?",
+    question: "The Kenyan national anthem was adapted from a lullaby associated with which community?",
     answers: [
-      { text: "Raila Odinga", correct: false },
-      { text: "Daniel Arap Moi", correct: false },
-      { text: "Mwai Kibaki", correct: true },
-      { text: "Uhuru Kenyatta", correct: false },
+      { text: "Sabaot", correct: false },
+      { text: "Tugen", correct: false },
+      { text: "Pokomo", correct: true },
+      { text: "Gumba", correct: false },
     ],
   },
 ];

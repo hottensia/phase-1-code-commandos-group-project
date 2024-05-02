@@ -27,7 +27,7 @@ const questions = [
     ],
   },
   {
-    question: "In 1960, under a more equitable electoral system, there were fourteen African members of the Kenya Legislative Council. Which of these was NOT one of them?",
+    question: "In 1960, under a more equitable electoral system, there were fourteen African members of the Kenya Legislative Council. Who amongst these was NOT one of them?",
     answers: [
       { text: "Dedan Kimathi", correct: true },
       { text: "Daniel Arap Moi", correct: false },
@@ -41,7 +41,7 @@ const questions = [
       { text: "Lancaster House, United Kingdom", correct: false },
       { text: "Buenos Aires, Argentina", correct: false },
       { text: "Calcutta, India", correct: false },
-      { text: "Dayton, Ohio (United States)", correct: true },
+      { text: "Dayton,  United States", correct: true },
     ],
   },
   {
@@ -65,8 +65,8 @@ const questions = [
   {
     question: "In what tumultuous year did the Mau Mau Uprising begin that ultimately led to the decolonization of Kenya and then to independence?",
     answers: [
-      { text: "1945", correct: false },
-      { text: "1930", correct: false },
+      { text: "1958", correct: false },
+      { text: "1962", correct: false },
       { text: "1952", correct: false },
       { text: "1960", correct: true },
     ],

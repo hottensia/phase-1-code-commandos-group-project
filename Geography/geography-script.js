@@ -1,7 +1,7 @@
 const questions = [
   {
     question:
-      "The city of Nyeri was once in the Central Province of Kenya. What landscape would you expect to find there??",
+      "What landscape do you expect to find in Nyeri?",
     answers: [
       { text: "Jagged mountains", correct: false },
       { text: "Highlands", correct: true },
@@ -13,15 +13,15 @@ const questions = [
     question:
       "Shortly northeast of Kenya's former Central Province, Mount Kenya is the second-largest mountain in Africa. Is it also the second-largest mountain in Kenya?",
     answers: [
-      { text: "Jomo Kenyatta", correct: true },
-      { text: "Daniel Arap Moi", correct: false },
-      { text: "Uhuru Kenyatta", correct: false },
-      { text: "Mwai Kibaki", correct: false },
+      { text: "True", correct: false },
+      { text: "False", correct: true },
+      // { text: "Uhuru Kenyatta", correct: false },
+      // { text: "Mwai Kibaki", correct: false },
     ],
   },
   {
     question:
-      "If you head to Mombasa, a beach city in the country's southeastern coast, you can visit the shores of what ocean?",
+      "If you head to Mombasa, a beach city in the country's southeastern coast, you can visit the shores of which ocean?",
     answers: [
       { text: "Indian Ocean", correct: true },
       { text: "Pacific Ocean", correct: false },
@@ -31,7 +31,7 @@ const questions = [
   },
   {
     question:
-      "Mandera is found in the northeastern-most corner of Kenya. Within ten miles you can visit Somali or what other nearby country?",
+      "Mandera is found in the northeastern-most corner of Kenya. Within ten miles you can visit Somalia or which other nearby country?",
     answers: [
       { text: "Uganda", correct: false },
       { text: "Tanzania", correct: false },
@@ -85,13 +85,13 @@ const questions = [
     answers: [
       { text: "Serengeti", correct: false },
       { text: "Maasai Mara", correct: true },
-      { text: "Watamu", correct: false },
-      { text: "Kisumu", correct: false },
+      { text: "Amboseli", correct: false },
+      { text: "Tsavo", correct: false },
     ],
   },
   {
     question:
-      "Nairobi, the capital city of Kenya, translates to 'cool waters' in what language?",
+      "Nairobi, the capital city of Kenya, translates to 'cool waters' in which language?",
     answers: [
       { text: "Maasai", correct: true },
       { text: "Ndonde", correct: false },

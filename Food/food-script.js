@@ -9,26 +9,26 @@ const questions = [
     ],
   },
   {
-    question: "What is ugali?",
+    question: "Ugali is popularly made using?",
     answers: [
-      { text: "A sport", correct: false },
-      { text: "Food", correct: true },
-      { text: "Clothing", correct: false },
-      { text: "A Music Instrument", correct: false },
+      { text: "Rice flour", correct: false },
+      { text: "Maize flour", correct: true },
+      { text: "Wheat flour", correct: false },
+      { text: "Rice flour", correct: false },
     ],
   },
   {
-    question: "Mursik is a popular Kalenjin dish. What is it?",
+    question: "Mursik is a popular Kalenjin drink. What is it?",
     answers: [
-      { text: "A vegetable", correct: false },
+      { text: "Traditional juice", correct: false },
       { text: "Traditional fermented milk", correct: true },
-      { text: "Ugali", correct: false },
-      { text: "Kales", correct: false },
+      { text: "Traditional alcoholic drink", correct: false },
+      { text: "Traditional soda", correct: false },
     ],
   },
   {
     question:
-      "Mutura an instentine-encased mixture of minced pieces of cow/goat meat, tripe, and cooled blood that's been flavoured with onions, salt pepper and chilli is popular among the?",
+      "Mutura, an instentine-encased mixture of minced pieces of cow/goat meat, tripe, and cooled blood that's been flavoured with onions, salt pepper and chilli is popular among the?",
     answers: [
       { text: "Turkana", correct: false },
       { text: "Ameru", correct: false },
@@ -53,17 +53,17 @@ const questions = [
       { text: "Kachumbari", correct: true },
       { text: "Guacamole", correct: false },
       { text: "Coleslaw", correct: false },
-      { text: "Mursik", correct: false },
+      { text: "French fries", correct: false },
     ],
   },
   {
     question:
-      "What do Kenyans popularly serve visitors at their homes?",
+      "Which is Kenya's biggest food export?",
     answers: [
       { text: "Tea", correct: true },
-      { text: "Pilau", correct: false },
-      { text: "Porridge", correct: false },
-      { text: "Ugali", correct: false },
+      { text: "Coffee", correct: false },
+      { text: "Nuts", correct: false },
+      { text: "Flowers", correct: false },
     ],
   },
   {
@@ -78,12 +78,12 @@ const questions = [
   },
   {
     question:
-      "Ingoho is a popular dish among the people of?",
+      "'Ingoho' is a popular dish associated with which Kenyan community?",
     answers: [
-      { text: "Western Kenya", correct: true },
-      { text: "Central Kenya", correct: false },
-      { text: "Rift Valley", correct: false },
-      { text: "North Eastern", correct: false },
+      { text: "Luhya", correct: true },
+      { text: "Kisii", correct: false },
+      { text: "Luo", correct: false },
+      { text: "Taita", correct: false },
     ],
   },
   {
