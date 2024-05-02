@@ -45,4 +45,8 @@ document.getElementById("signInForm").addEventListener("submit", function (event
 
  // Notify user of successful form submission
  alert("Form data submitted successfully!");
+
+
+//redirect to another page
+window.location.href = "quiz.html"; 
 });
